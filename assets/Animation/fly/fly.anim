@@ -1,0 +1,48 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "fly",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 22.5,
+  "sample": 2,
+  "speed": 1,
+  "wrapMode": "1",
+  "curveData": {
+    "props": {
+      "x": [
+        {
+          "frame": 0,
+          "value": 986
+        },
+        {
+          "frame": 1,
+          "value": 843.75
+        },
+        {
+          "frame": 8,
+          "value": -152
+        },
+        {
+          "frame": 8.5,
+          "value": -191
+        },
+        {
+          "frame": 10.5,
+          "value": -223
+        },
+        {
+          "frame": 22.5,
+          "value": -1747
+        }
+      ]
+    },
+    "paths": {}
+  },
+  "events": [
+    {
+      "frame": 22.5,
+      "func": "destoryNode",
+      "params": []
+    }
+  ]
+}

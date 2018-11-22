@@ -1,0 +1,133 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "box",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.8,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "73967457-5e9e-4df2-bf9e-b38efe8a4a57"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "99b60d24-0718-41ed-8ac2-e59bda8867ca"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "8d43fe2b-89d3-4618-9021-eea6e691fb59"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "a6cfb4ae-293b-4fcd-8c60-151a16312d25"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "792c0e99-67df-4eeb-ad6f-0c1f3860dc22"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "04d2d073-f8b3-4e60-aed1-18b17cd18f34"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "e146bf88-6c6a-49ca-b37c-49b4098fb6a8"
+            }
+          },
+          {
+            "frame": 0.7,
+            "value": {
+              "__uuid__": "bd853bef-d764-4426-ac61-01f7f56dd2d1"
+            }
+          },
+          {
+            "frame": 0.8,
+            "value": {
+              "__uuid__": "d1bccbac-dae5-4762-8bf5-013847020c58"
+            }
+          },
+          {
+            "frame": 0.9,
+            "value": {
+              "__uuid__": "dc0729ac-bd65-4d2d-a948-b53ba9495bab"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "e9feab76-2969-4590-b4c6-4f15f96d0644"
+            }
+          },
+          {
+            "frame": 1.1,
+            "value": {
+              "__uuid__": "23e2f469-1723-43c5-9a1d-e8bbe76022c4"
+            }
+          },
+          {
+            "frame": 1.2,
+            "value": {
+              "__uuid__": "84225761-3d28-4f5c-88cf-b7c68e208341"
+            }
+          },
+          {
+            "frame": 1.3,
+            "value": {
+              "__uuid__": "1c1b5e21-c547-4701-93e7-3861a4ef1abd"
+            }
+          },
+          {
+            "frame": 1.4,
+            "value": {
+              "__uuid__": "a14aa62a-4a85-4d77-8db5-66d495b0ca12"
+            }
+          },
+          {
+            "frame": 1.5,
+            "value": {
+              "__uuid__": "9695ae2b-559b-4aed-8c63-5be639e5b9f8"
+            }
+          },
+          {
+            "frame": 1.6,
+            "value": {
+              "__uuid__": "0a3ddfb1-f040-4b28-9322-303bf69afe2b"
+            }
+          },
+          {
+            "frame": 1.7,
+            "value": {
+              "__uuid__": "a36aa76e-bd47-4e38-98e1-3bdba28f342f"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1.3,
+      "func": "playMusic",
+      "params": []
+    }
+  ]
+}

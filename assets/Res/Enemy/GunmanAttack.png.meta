@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "72b8e05f-49f5-4cdf-99a4-5bcf50ee4d6e",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "GunmanAttack": {
+      "ver": "1.0.3",
+      "uuid": "47f64a50-6879-4260-97f2-0527beb51ca4",
+      "rawTextureUuid": "72b8e05f-49f5-4cdf-99a4-5bcf50ee4d6e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 249,
+      "height": 1614,
+      "rawWidth": 249,
+      "rawHeight": 1614,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

@@ -1,0 +1,336 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "enemy",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_active": true,
+    "_level": 1,
+    "_components": [
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 9
+      }
+    ],
+    "_prefab": {
+      "__id__": 10
+    },
+    "_opacity": 0,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 2,
+      "g": 124,
+      "b": 7,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 107,
+      "height": 83
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": -188,
+      "y": -19,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 2,
+      "y": 2,
+      "z": 1
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_quat": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_zIndex": 0,
+    "groupIndex": 2,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "bossNode",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_level": 3,
+    "_components": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": {
+      "__id__": 6
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 107,
+      "height": 83
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_rotationX": 0,
+    "_rotationY": 0,
+    "_quat": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_zIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "11abe944-e1aa-4f8e-b381-966886cda304"
+    },
+    "_type": 0,
+    "_sizeMode": 2,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_state": 0,
+    "_atlas": {
+      "__uuid__": "4664ed8e-0c77-4e3b-b035-cf7ae10e5fa8"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_defaultClip": {
+      "__uuid__": "fe038332-afaf-4fe1-91ae-085df35028d3"
+    },
+    "_clips": [
+      {
+        "__uuid__": "fe038332-afaf-4fe1-91ae-085df35028d3"
+      },
+      {
+        "__uuid__": "f108625a-fbd3-4f34-8e11-d741225ce1cf"
+      },
+      {
+        "__uuid__": "cbbc69b9-aef7-474c-aee7-2886e6465778"
+      },
+      {
+        "__uuid__": "13512939-ddce-4b7f-aae4-fb5bfb3ab1ef"
+      }
+    ],
+    "playOnLoad": true,
+    "_id": ""
+  },
+  {
+    "__type__": "8fffej4Y2VLTKVMw7zwrov2",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "sprintFrames": [],
+    "gunmanBullMusic": null,
+    "warriorBullMusic": null,
+    "wormAttackMusic": null,
+    "whaleAttackMusic": null,
+    "boss1AttackMusic": null,
+    "boss2AttackMusic": {
+      "__uuid__": "ffb2ba3c-ad06-426b-9ada-f5efd5d601eb"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "9c008c32-2479-4504-9591-00c088a3d186"
+    },
+    "fileId": "98ejd3SJpD3bojdWyl+hZ9",
+    "sync": false
+  },
+  {
+    "__type__": "a52eb1Tfa5IdYQenW+eJn7J",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "bossNamePrefab": {
+      "__uuid__": "d343cd16-910f-4c2a-8646-370cdc896244"
+    },
+    "healthNodePrefab": {
+      "__uuid__": "d686a153-439b-4895-aeb1-4c68e3a15660"
+    },
+    "bullNodes": [
+      {
+        "__uuid__": "17fd0bbc-b492-4245-8af6-8a55d4f5df4d"
+      },
+      {
+        "__uuid__": "def88212-1daa-4d1f-84f2-b96069caacb0"
+      },
+      {
+        "__uuid__": "cf6c8131-6c12-42d9-a852-fd9df7e4c65a"
+      }
+    ],
+    "wormDieMusic": null,
+    "whaleDieMusic": null,
+    "gunmanDieMusic": null,
+    "warriorDieMusic": null,
+    "boss1DieMusic": null,
+    "boss2DieMusic": {
+      "__uuid__": "e62ee71e-16f3-4d78-9c35-a594f6a6d600"
+    },
+    "createName": "boss2",
+    "_id": ""
+  },
+  {
+    "__type__": "cc.BoxCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "tag": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_size": {
+      "__type__": "cc.Size",
+      "width": 107,
+      "height": 83
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.MotionStreak",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_fadeTime": 0.5,
+    "_minSeg": 2,
+    "_stroke": 200,
+    "_texture": {
+      "__uuid__": "a1dae533-8a3c-4ec6-91c8-83200e2f3c60"
+    },
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 95,
+      "g": 36,
+      "b": 3,
+      "a": 255
+    },
+    "_fastMode": false,
+    "_N$preview": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "9c008c32-2479-4504-9591-00c088a3d186"
+    },
+    "fileId": "156kYDZrdMxaCpBsxhmSQz",
+    "sync": false
+  }
+]

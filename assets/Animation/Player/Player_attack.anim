@@ -1,0 +1,87 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Player_attack",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.3333333333333333,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "1",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "6cd23640-16fd-460c-8705-3d71bbb1c8e3"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "cd1520a8-ced2-48f5-9e05-d25d38345be8"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "4410b723-78f6-4470-9981-726d3933441f"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "3aa55471-415a-42ca-839f-0300b9816530"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "da17c1e6-eca0-4088-a6b9-c23c8f67262f"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "1b7f39fc-916d-4f2b-a78d-fce0c0f0f5c6"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "a19d6b8e-6133-4bc9-9f20-1fdb74a40ce4"
+            }
+          },
+          {
+            "frame": 0.23333333333333334,
+            "value": {
+              "__uuid__": "dd03e2ba-c7e2-4a0c-9598-dc0b3bfe3b3b"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "86b20631-74d6-4518-ab55-e282f2ebacdb"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "2cdcc8ae-0150-4442-8b31-690bbd03bc31"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "attackEnemy",
+      "params": [
+        "attack"
+      ]
+    }
+  ]
+}

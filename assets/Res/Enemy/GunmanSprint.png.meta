@@ -1,0 +1,31 @@
+{
+  "ver": "2.2.0",
+  "uuid": "ba4e03a9-dea7-4a73-96c2-911581e14d4f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "subMetas": {
+    "GunmanSprint": {
+      "ver": "1.0.3",
+      "uuid": "ad665079-7682-4fe3-bb95-2a12918e6471",
+      "rawTextureUuid": "ba4e03a9-dea7-4a73-96c2-911581e14d4f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 917,
+      "height": 502,
+      "rawWidth": 917,
+      "rawHeight": 502,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
